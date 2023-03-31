@@ -1,6 +1,9 @@
 import { onBeforeUnmount, onMounted, ref } from "vue"
 import L from 'leaflet'
 import "leaflet/dist/leaflet.css"
+import 'leaflet/dist/images/marker-icon-2x.png'
+import 'leaflet/dist/images/marker-icon.png'
+import 'leaflet/dist/images/marker-shadow.png'
 
 export default function () {
   const map = ref(null)
