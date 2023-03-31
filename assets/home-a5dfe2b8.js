@@ -1,0 +1,1 @@
+import{_ as c,o,c as t,p as s,a,b as _}from"./index-ca64afc1.js";const n={setup(){return{}}},p=e=>(s("data-v-c384acd0"),e=e(),a(),e),d=p(()=>_("h1",null,null,-1)),r=[d];function l(e,u,i,h,m,f){return o(),t("main",null,r)}const x=c(n,[["render",l],["__scopeId","data-v-c384acd0"]]);export{x as default};
