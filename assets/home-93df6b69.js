@@ -1,0 +1,1 @@
+import{_ as c,o as t,c as o,p as s,a,b as _}from"./index-ad4fbe63.js";const p={setup(){return{}}},n=e=>(s("data-v-7e7ac0c7"),e=e(),a(),e),d=n(()=>_("h1",{class:"title"},"第一頁由此開始",-1)),r=[d];function i(e,l,u,h,m,f){return t(),o("main",null,r)}const x=c(p,[["render",i],["__scopeId","data-v-7e7ac0c7"]]);export{x as default};
