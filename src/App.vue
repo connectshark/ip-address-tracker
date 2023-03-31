@@ -3,9 +3,13 @@
 </template>
 
 
-<style lang="scss">
+<style>
 #app {
-  font-family: 'Poppins', 'Noto Sans TC', sans-serif;
-  text-align: center;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+:root {
+  --deep-gray: hsl(0, 0%, 17%);
+  --dark-gray: hsl(0, 0%, 59%);
 }
 </style>
