@@ -135,6 +135,7 @@ watch(endLoad, async value => {
   margin: auto;
   width: 400px;
   z-index: 1000;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   .detail-item {
     position: relative;
     &:not(:last-child) {
