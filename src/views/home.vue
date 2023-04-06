@@ -25,7 +25,7 @@
         </li>
         <li class="detail-item">
           <h2>timezone</h2>
-          <p>{{ data.location.timezone }}</p>
+          <p>UTC {{ data.location.timezone }}</p>
         </li>
         <li class="detail-item">
           <h2>isp</h2>
@@ -62,7 +62,7 @@ const submitHandler = async () => {
   await searchIP(address.value)
   if (data.value) {
     panTo({
-      lat: data.value.location.lat,
+      lat: data.value.location.lat - 0.009,
       lng: data.value.location.lng
     })
   }
@@ -133,19 +133,22 @@ watch(endLoad, async value => {
   left: 0;
   right: 0;
   margin: auto;
-  width: 350px;
+  width: 400px;
   z-index: 1000;
   .detail-item {
+    position: relative;
     &:not(:last-child) {
       margin-bottom: 1rem;
     }
     h2 {
-      font-size: 1rem;
-      font-weight: 400;
+      font-size: .5rem;
+      font-weight: 500;
+      letter-spacing: 2px;
+      line-height: 2;
       color: var(--light-gray);
+      text-transform: uppercase;
     }
     p {
-      line-height: 2;
       font-weight: 700;
     }
   }
@@ -155,13 +158,32 @@ watch(endLoad, async value => {
 }
 
 @media screen and (min-width: 1440px) {
+  .handler-section{
+    background-image: url('../assets/images/pattern-bg-desktop.png');
+  }
   .detail {
     width: 1200px;
     ul {
       display: flex;
-      align-items: center;
+      justify-content: space-evenly;
+      text-align: left;
       .detail-item {
-        width: 25%;
+        width: 20%;
+        &:not(:last-child) {
+          margin-bottom: 0;
+        }
+        &:not(:last-child)::before {
+          content: '';
+          position: absolute;
+          width: 1px;
+          height: 80%;
+          top: 10%;
+          right: 0;
+          background-color: #aaa;
+        }
+        p {
+          font-size: 1.5rem;
+        }
       }
     }
   }

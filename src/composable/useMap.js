@@ -12,7 +12,7 @@ export default function () {
 
   const panTo = ({ lat, lng }) => {
     removeAllMarkers()
-    map.value.panTo([lat + 0.1, lng])
+    map.value.panTo([lat, lng])
     const marker = L.marker([lat, lng])
       .bindPopup('<p>Hi! you are here.</p>')
       .addTo(map.value)
@@ -29,7 +29,8 @@ export default function () {
   onMounted(() => {
     map.value = L.map('map', {
       center: [25.033493, 121.564101],
-      zoom: 13
+      zoom: 13,
+      zoomControl: false
     })
     map.value.whenReady(() => {
       endLoad.value = true
