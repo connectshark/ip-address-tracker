@@ -6,10 +6,10 @@
     "url": "https://github.com/connectshark"
   },
   "license": "MIT",
-  "homepage": "https://github.com/connectshark/vite-template",
+  "homepage": "https://github.com/connectshark/ip-address-tracker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/connectshark/vite-template"
+    "url": "https://github.com/connectshark/ip-address-tracker"
   },
   "scripts": {
     "dev": "vite",
