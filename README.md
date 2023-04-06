@@ -1,46 +1,41 @@
-# IP address tracker
+# Frontend Mentor - IP address tracker solution
 
-[![build status](https://github.com/connectshark/ip-address-tracker/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/connectshark/ip-address-tracker/actions/workflows/deploy.yml)
-[![GitHub last commit](https://img.shields.io/github/last-commit/connectshark/ip-address-tracker.svg?style=flat)](https://github.com/connectshark/ip-address-tracker)
-![GitHub stars](https://img.shields.io/github/stars/connectshark/ip-address-tracker.svg?style=social&label=Stars&style=plastic)
+This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+## Table of contents
 
-![https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-開發vue3使用的快速模板
+## Overview
 
-## 專案已包含內容
+### Screenshot
 
-### 插件
+![](/readme/cover.png)
 
-- vue
-- vue-router
-- pinia
+### Links
 
-### cdn
+- Solution URL: [Solution Repository](https://github.com/connectshark/ip-address-tracker)
+- Live Site URL: [Live Demo](https://connectshark.github.io/ip-address-tracker/#/)
 
-- [boxicon](https://boxicons.com/)
-- Roboto Mono字型
-- Noto Sans TC字型
+## My process
 
-### github
+### Built with
 
-- github action自動部署置`gh-page`
+- Vue
+- CSS custom properties
+- Flexbox
+- Leafletjs
+### What I learned
+I used to be unfamiliar with using map in Vue, but this project is a breakthrough for me.
+After researching, I found that using the composable approach to implement maps can separate the map logic from the display logic, which is quite convenient.
 
-## 使用template首次設定
+## Author
 
-你可以點選 `use this template` 直接將此模板複製到自己的github上
-
-接者你需要手動修改幾個部分
-
-### 1. 專案更名
-
-- `package.json`中的專案名稱
-- `vite.config.js`中的`base`
-- 修改`index.html`中的title
-主要是把專案名稱命名為自訂的專案名稱
-
-### 2. 推上github後開啟專案page的功能
-
-`setting` -> `page` -> `source` -> 選擇 `gh-page`
+- Website - [Nosegates](https://nosegates.com/)
+- Frontend Mentor - [@Nosegates](https://www.frontendmentor.io/profile/connectshark)
